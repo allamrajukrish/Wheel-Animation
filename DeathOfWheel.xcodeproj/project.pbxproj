@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8295932A1665ECD7002A0E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829593291665ECD7002A0E25 /* UIKit.framework */; };
+		8295932C1665ECD7002A0E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8295932B1665ECD7002A0E25 /* Foundation.framework */; };
+		8295932E1665ECD7002A0E25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8295932D1665ECD7002A0E25 /* CoreGraphics.framework */; };
+		829593341665ECD7002A0E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829593321665ECD7002A0E25 /* InfoPlist.strings */; };
+		829593361665ECD7002A0E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829593351665ECD7002A0E25 /* main.m */; };
+		8295933A1665ECD7002A0E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829593391665ECD7002A0E25 /* AppDelegate.m */; };
+		8295933C1665ECD7002A0E25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8295933B1665ECD7002A0E25 /* Default.png */; };
+		8295933E1665ECD7002A0E25 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8295933D1665ECD7002A0E25 /* Default@2x.png */; };
+		829593401665ECD7002A0E25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8295933F1665ECD7002A0E25 /* Default-568h@2x.png */; };
+		829593431665ECD7002A0E25 /* DeathOfWheelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829593421665ECD7002A0E25 /* DeathOfWheelController.m */; };
+		829593461665ECD7002A0E25 /* DeathOfWheelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829593441665ECD7002A0E25 /* DeathOfWheelController.xib */; };
+		8295935B1665ECEB002A0E25 /* boar.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593511665ECEB002A0E25 /* boar.png */; };
+		8295935C1665ECEB002A0E25 /* deer.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593521665ECEB002A0E25 /* deer.png */; };
+		8295935D1665ECEB002A0E25 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593531665ECEB002A0E25 /* elephant.png */; };
+		8295935E1665ECEB002A0E25 /* fox.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593541665ECEB002A0E25 /* fox.png */; };
+		8295935F1665ECEB002A0E25 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593551665ECEB002A0E25 /* monkey.png */; };
+		829593601665ECEB002A0E25 /* owl.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593561665ECEB002A0E25 /* owl.png */; };
+		829593611665ECEB002A0E25 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593571665ECEB002A0E25 /* rabbit.png */; };
+		829593621665ECEB002A0E25 /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593581665ECEB002A0E25 /* rose.png */; };
+		829593631665ECEB002A0E25 /* snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 829593591665ECEB002A0E25 /* snake.png */; };
+		829593641665ECEB002A0E25 /* squrrel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8295935A1665ECEB002A0E25 /* squrrel.png */; };
+		829593691665F78A002A0E25 /* slide5ground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 829593681665F78A002A0E25 /* slide5ground.jpg */; };
+		8295936F1665F833002A0E25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8295936E1665F833002A0E25 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		829593251665ECD7002A0E25 /* DeathOfWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathOfWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829593291665ECD7002A0E25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8295932B1665ECD7002A0E25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8295932D1665ECD7002A0E25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		829593311665ECD7002A0E25 /* DeathOfWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeathOfWheel-Info.plist"; sourceTree = "<group>"; };
+		829593331665ECD7002A0E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		829593351665ECD7002A0E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		829593371665ECD7002A0E25 /* DeathOfWheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeathOfWheel-Prefix.pch"; sourceTree = "<group>"; };
+		829593381665ECD7002A0E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		829593391665ECD7002A0E25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8295933B1665ECD7002A0E25 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8295933D1665ECD7002A0E25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8295933F1665ECD7002A0E25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		829593411665ECD7002A0E25 /* DeathOfWheelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeathOfWheelController.h; sourceTree = "<group>"; };
+		829593421665ECD7002A0E25 /* DeathOfWheelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeathOfWheelController.m; sourceTree = "<group>"; };
+		829593451665ECD7002A0E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DeathOfWheelController.xib; sourceTree = "<group>"; };
+		829593511665ECEB002A0E25 /* boar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boar.png; sourceTree = "<group>"; };
+		829593521665ECEB002A0E25 /* deer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deer.png; sourceTree = "<group>"; };
+		829593531665ECEB002A0E25 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		829593541665ECEB002A0E25 /* fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fox.png; sourceTree = "<group>"; };
+		829593551665ECEB002A0E25 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		829593561665ECEB002A0E25 /* owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = owl.png; sourceTree = "<group>"; };
+		829593571665ECEB002A0E25 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		829593581665ECEB002A0E25 /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose.png; sourceTree = "<group>"; };
+		829593591665ECEB002A0E25 /* snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake.png; sourceTree = "<group>"; };
+		8295935A1665ECEB002A0E25 /* squrrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squrrel.png; sourceTree = "<group>"; };
+		829593681665F78A002A0E25 /* slide5ground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide5ground.jpg; sourceTree = "<group>"; };
+		8295936E1665F833002A0E25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829593221665ECD7002A0E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8295936F1665F833002A0E25 /* QuartzCore.framework in Frameworks */,
+				8295932A1665ECD7002A0E25 /* UIKit.framework in Frameworks */,
+				8295932C1665ECD7002A0E25 /* Foundation.framework in Frameworks */,
+				8295932E1665ECD7002A0E25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8295931A1665ECD7002A0E25 = {
+			isa = PBXGroup;
+			children = (
+				8295936E1665F833002A0E25 /* QuartzCore.framework */,
+				8295932F1665ECD7002A0E25 /* DeathOfWheel */,
+				829593281665ECD7002A0E25 /* Frameworks */,
+				829593261665ECD7002A0E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		829593261665ECD7002A0E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829593251665ECD7002A0E25 /* DeathOfWheel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829593281665ECD7002A0E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829593291665ECD7002A0E25 /* UIKit.framework */,
+				8295932B1665ECD7002A0E25 /* Foundation.framework */,
+				8295932D1665ECD7002A0E25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8295932F1665ECD7002A0E25 /* DeathOfWheel */ = {
+			isa = PBXGroup;
+			children = (
+				829593381665ECD7002A0E25 /* AppDelegate.h */,
+				829593391665ECD7002A0E25 /* AppDelegate.m */,
+				829593411665ECD7002A0E25 /* DeathOfWheelController.h */,
+				829593421665ECD7002A0E25 /* DeathOfWheelController.m */,
+				829593441665ECD7002A0E25 /* DeathOfWheelController.xib */,
+				829593501665ECEB002A0E25 /* DeathOfWheel */,
+				829593301665ECD7002A0E25 /* Supporting Files */,
+			);
+			path = DeathOfWheel;
+			sourceTree = "<group>";
+		};
+		829593301665ECD7002A0E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				829593311665ECD7002A0E25 /* DeathOfWheel-Info.plist */,
+				829593321665ECD7002A0E25 /* InfoPlist.strings */,
+				829593351665ECD7002A0E25 /* main.m */,
+				829593371665ECD7002A0E25 /* DeathOfWheel-Prefix.pch */,
+				8295933B1665ECD7002A0E25 /* Default.png */,
+				8295933D1665ECD7002A0E25 /* Default@2x.png */,
+				8295933F1665ECD7002A0E25 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		829593501665ECEB002A0E25 /* DeathOfWheel */ = {
+			isa = PBXGroup;
+			children = (
+				829593681665F78A002A0E25 /* slide5ground.jpg */,
+				829593511665ECEB002A0E25 /* boar.png */,
+				829593521665ECEB002A0E25 /* deer.png */,
+				829593531665ECEB002A0E25 /* elephant.png */,
+				829593541665ECEB002A0E25 /* fox.png */,
+				829593551665ECEB002A0E25 /* monkey.png */,
+				829593561665ECEB002A0E25 /* owl.png */,
+				829593571665ECEB002A0E25 /* rabbit.png */,
+				829593581665ECEB002A0E25 /* rose.png */,
+				829593591665ECEB002A0E25 /* snake.png */,
+				8295935A1665ECEB002A0E25 /* squrrel.png */,
+			);
+			path = DeathOfWheel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829593241665ECD7002A0E25 /* DeathOfWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829593491665ECD7002A0E25 /* Build configuration list for PBXNativeTarget "DeathOfWheel" */;
+			buildPhases = (
+				829593211665ECD7002A0E25 /* Sources */,
+				829593221665ECD7002A0E25 /* Frameworks */,
+				829593231665ECD7002A0E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeathOfWheel;
+			productName = DeathOfWheel;
+			productReference = 829593251665ECD7002A0E25 /* DeathOfWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8295931C1665ECD7002A0E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Venkat Boddapati";
+			};
+			buildConfigurationList = 8295931F1665ECD7002A0E25 /* Build configuration list for PBXProject "DeathOfWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8295931A1665ECD7002A0E25;
+			productRefGroup = 829593261665ECD7002A0E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829593241665ECD7002A0E25 /* DeathOfWheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829593231665ECD7002A0E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829593341665ECD7002A0E25 /* InfoPlist.strings in Resources */,
+				8295933C1665ECD7002A0E25 /* Default.png in Resources */,
+				8295933E1665ECD7002A0E25 /* Default@2x.png in Resources */,
+				829593401665ECD7002A0E25 /* Default-568h@2x.png in Resources */,
+				829593461665ECD7002A0E25 /* DeathOfWheelController.xib in Resources */,
+				8295935B1665ECEB002A0E25 /* boar.png in Resources */,
+				8295935C1665ECEB002A0E25 /* deer.png in Resources */,
+				8295935D1665ECEB002A0E25 /* elephant.png in Resources */,
+				8295935E1665ECEB002A0E25 /* fox.png in Resources */,
+				8295935F1665ECEB002A0E25 /* monkey.png in Resources */,
+				829593601665ECEB002A0E25 /* owl.png in Resources */,
+				829593611665ECEB002A0E25 /* rabbit.png in Resources */,
+				829593621665ECEB002A0E25 /* rose.png in Resources */,
+				829593631665ECEB002A0E25 /* snake.png in Resources */,
+				829593641665ECEB002A0E25 /* squrrel.png in Resources */,
+				829593691665F78A002A0E25 /* slide5ground.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829593211665ECD7002A0E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829593361665ECD7002A0E25 /* main.m in Sources */,
+				8295933A1665ECD7002A0E25 /* AppDelegate.m in Sources */,
+				829593431665ECD7002A0E25 /* DeathOfWheelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		829593321665ECD7002A0E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829593331665ECD7002A0E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		829593441665ECD7002A0E25 /* DeathOfWheelController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829593451665ECD7002A0E25 /* en */,
+			);
+			name = DeathOfWheelController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		829593471665ECD7002A0E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		829593481665ECD7002A0E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8295934A1665ECD7002A0E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prakash Dantuluri (ZAH86A92JL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prakash Dantuluri (ZAH86A92JL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeathOfWheel/DeathOfWheel-Prefix.pch";
+				INFOPLIST_FILE = "DeathOfWheel/DeathOfWheel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5A5F4097-09DE-4493-AE89-841F83E70742";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A5F4097-09DE-4493-AE89-841F83E70742";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8295934B1665ECD7002A0E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prakash Dantuluri (ZAH86A92JL)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeathOfWheel/DeathOfWheel-Prefix.pch";
+				INFOPLIST_FILE = "DeathOfWheel/DeathOfWheel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5A5F4097-09DE-4493-AE89-841F83E70742";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8295931F1665ECD7002A0E25 /* Build configuration list for PBXProject "DeathOfWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829593471665ECD7002A0E25 /* Debug */,
+				829593481665ECD7002A0E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829593491665ECD7002A0E25 /* Build configuration list for PBXNativeTarget "DeathOfWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295934A1665ECD7002A0E25 /* Debug */,
+				8295934B1665ECD7002A0E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8295931C1665ECD7002A0E25 /* Project object */;
+}
